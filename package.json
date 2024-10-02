@@ -1,14 +1,18 @@
 {
+  "homepage": "https://Abhi47Singh.github.io/react1stDeploy/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
